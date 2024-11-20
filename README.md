@@ -29,6 +29,11 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+# Before starting please create .env file add these env variables
+
+VITE_TODO_API_URL = 'https://nestjs-dev.deploy.nl',
+VITE_API_URL = 'api'
+
 ### Compile and Hot-Reload for Development
 
 ```sh
@@ -46,4 +51,5 @@ npm run build
 ```sh
 npm run lint
 ```
+
 # Vue-3-Todo
